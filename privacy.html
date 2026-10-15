@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Marea</title>
+<style>
+  :root { color-scheme: light; }
+  body { max-width: 780px; margin: 48px auto; padding: 0 24px 64px; font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: #0a2b5c; background: #f4f9fb; }
+  header { background: linear-gradient(135deg, #0a2b5c, #007887); color: #fff; padding: 28px 26px; border-radius: 22px; margin-bottom: 28px; box-shadow: 0 10px 26px rgba(10,43,92,0.14); }
+  header h1 { margin: 0 0 8px; line-height: 1.18; font-size: 1.9em; }
+  header p { margin: 0; opacity: 0.86; font-size: 0.92em; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  nav a { text-decoration: none; font-weight: 600; font-size: 0.9em; color: #007887; background: #e3f3f6; padding: 7px 14px; border-radius: 999px; }
+  section { background: #fff; padding: 24px 26px; border-radius: 20px; margin-bottom: 22px; border: 1px solid rgba(10,43,92,0.08); }
+  h2 { margin-top: 1.3em; font-size: 1.2em; color: #007887; }
+  h2:first-of-type { margin-top: 0.4em; }
+  a { color: #007887; }
+  small { color: #5c6e7e; }
+  hr { border: 0; border-top: 1px solid rgba(10,43,92,0.1); margin: 28px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy — Marea</h1>
+  <p>Ultimo aggiornamento / Last updated: 15 ottobre 2026 · iOS 1.0<br>Bundle ID: com.audioxlmilano.appspiagge · Pubblicata da Massimo Pozzi (AudioXL)</p>
+</header>
+
+<nav>
+  <a href="#it">🇮🇹 Italiano</a>
+  <a href="#en">🇬🇧 English</a>
+  <a href="#fr">🇫🇷 Français</a>
+  <a href="#de">🇩🇪 Deutsch</a>
+</nav>
+
+<section id="it">
+  <h2>🇮🇹 Informativa sulla Privacy (Italiano)</h2>
+  <p>Questa informativa descrive il trattamento dei dati nell’app iOS <strong>Marea</strong> (<code>com.audioxlmilano.appspiagge</code>), pubblicata da <strong>Massimo Pozzi</strong>.</p>
+
+  <h2>1. Funzionamento senza account e dati sul dispositivo</h2>
+  <p>Marea aiuta a scegliere la spiaggia migliore incrociando posizione, orientamento della costa e previsioni meteo-marine. L’app <strong>non richiede registrazione o creazione di un account</strong>, non integra SDK pubblicitari e non effettua profilazione o tracciamento pubblicitario (<code>NSPrivacyTracking = false</code>).</p>
+  <p>Il nome scelto nel profilo, la foto profilo opzionale selezionata tramite il selettore di sistema (<code>PhotosPicker</code>), le spiagge preferite, le bandierine delle spiagge visitate e le preferenze di filtro vengono salvati <strong>esclusivamente in locale sul dispositivo dell’utente</strong> (<code>UserDefaults</code> / App Group condiviso con il Widget Marea su iPhone).</p>
+
+  <h2>2. Posizione geografica (GPS)</h2>
+  <p>Se l’utente concede il permesso di localizzazione (<em>Mentre usi l’app</em>), le coordinate GPS vengono utilizzate sul dispositivo per calcolare la distanza dalle spiagge, ordinare quelle più vicine e richiedere le previsioni meteo-marine dell’area circostante. La posizione dell’utente non viene associata a un’identità personale né venduta o ceduta a terzi.</p>
+
+  <h2>3. Servizi esterni (Meteo, Foto e Database Spiagge)</h2>
+  <ul>
+    <li><strong>Previsioni meteo e mare (Open-Meteo):</strong> l’app interroga le API pubbliche di <a href="https://open-meteo.com/">Open-Meteo</a> inviando le coordinate delle celle costiere per ottenere vento, onde e temperature.</li>
+    <li><strong>Fotografie (Wikimedia Commons):</strong> le fotografie non incluse nel catalogo locale vengono caricate da <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> nel rispetto delle relative licenze Creative Commons.</li>
+    <li><strong>Database spiagge e segnalazioni (Supabase):</strong> l’elenco delle spiagge e le segnalazioni temporanee della community sono ospitati su infrastruttura Supabase con Row Level Security attiva.</li>
+  </ul>
+
+  <h2>4. Segnalazioni della community e moderazione (UGC)</h2>
+  <p>L’utente può inviare facoltativamente segnalazioni sulle condizioni della spiaggia (es. bandiere, meduse, parcheggio pieno) o proporre nuove spiagge/correzioni. Per prevenire abusi e spam senza richiedere un account, agli invii viene associato un identificativo tecnico casuale generato sull’app (<code>device_id</code>) e un limite di frequenza lato server. Le segnalazioni live scadono automaticamente dopo poche ore.</p>
+  <p>Sono vietati contenuti offensivi o inappropriati: l’app integra un filtro automatico sui testi e consente a ogni utente di nascondere e segnalare qualsiasi contributo tramite il pulsante <em>“Segnala o nascondi contenuto”</em>.</p>
+
+  <h2>5. Conservazione, eliminazione e assistenza</h2>
+  <p>I dati salvati sul telefono (foto profilo, preferiti, spiagge visitate, spiagge aggiunte localmente) possono essere modificati o rimossi dall’utente direttamente nell’app o disinstallando Marea.</p>
+  <p>Per domande sulla privacy o richieste di supporto, contattare Massimo Pozzi tramite il <a href="https://github.com/massimopozzi1989-gif/marea-privacy/issues">canale di assistenza su GitHub</a>.</p>
+</section>
+
+<section id="en">
+  <h2>🇬🇧 Privacy Policy (English)</h2>
+  <p>This policy describes how data is handled in the iOS app <strong>Marea</strong> (<code>com.audioxlmilano.appspiagge</code>), published by <strong>Massimo Pozzi</strong>.</p>
+
+  <h2>1. No Account Required & On-Device Data</h2>
+  <p>Marea helps you find the best beach by combining coastline orientation with live wind and wave forecasts. The app <strong>does not require an account</strong>, contains no advertising SDKs, and performs no cross-app tracking (<code>NSPrivacyTracking = false</code>).</p>
+  <p>Your display name, optional profile photo chosen via Apple’s system <code>PhotosPicker</code>, favourite beaches, visited beach flags, and filter preferences are stored <strong>locally on your iPhone</strong> (<code>UserDefaults</code> / App Group shared with the Marea Widget).</p>
+
+  <h2>2. Location Data (GPS)</h2>
+  <p>When you grant <em>While Using the App</em> location permission, your coordinates are used on-device to calculate distances to beaches, show the closest beaches, and fetch weather forecasts for nearby coastal grid cells. Your location is never linked to a personal identity or sold to third parties.</p>
+
+  <h2>3. Weather, Photos & Community Reports</h2>
+  <p>Weather and marine forecasts are fetched from <a href="https://open-meteo.com/">Open-Meteo</a> using coastal coordinates. Additional beach photographs are loaded from <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> with full attribution. Optional community reports (flags, jellyfish, parking, or beach suggestions) use a random anonymous technical identifier (<code>device_id</code>) solely for rate-limiting and anti-spam protection. Users can hide or report any community note directly inside the app.</p>
+
+  <h2>4. Support & Contact</h2>
+  <p>For privacy inquiries or support requests, please contact Massimo Pozzi via the <a href="https://github.com/massimopozzi1989-gif/marea-privacy/issues">GitHub Support Channel</a>.</p>
+</section>
+
+<section id="fr">
+  <h2>🇫🇷 Politique de Confidentialité (Français)</h2>
+  <p>Cette politique décrit le traitement des données dans l’application iOS <strong>Marea</strong> (<code>com.audioxlmilano.appspiagge</code>), publiée par <strong>Massimo Pozzi</strong>.</p>
+  <p>Marea fonctionne sans création de compte, sans publicité et sans suivi publicitaire. Votre nom, photo de profil, plages favorites et plages visitées restent enregistrés uniquement sur votre iPhone. Votre position GPS est utilisée sur l’appareil pour calculer les distances et récupérer les prévisions météo locales (<a href="https://open-meteo.com/">Open-Meteo</a>). Les signalements communautaires sont anonymes et modérés.</p>
+  <p>Assistance et contact : <a href="https://github.com/massimopozzi1989-gif/marea-privacy/issues">Support GitHub Marea</a>.</p>
+</section>
+
+<section id="de">
+  <h2>🇩🇪 Datenschutzerklärung (Deutsch)</h2>
+  <p>Diese Datenschutzerklärung beschreibt die Datenverarbeitung in der iOS-App <strong>Marea</strong> (<code>com.audioxlmilano.appspiagge</code>), veröffentlicht von <strong>Massimo Pozzi</strong>.</p>
+  <p>Marea funktioniert ohne Benutzerkonto, ohne Werbung und ohne Tracking. Dein Name, dein Profilbild, deine Favoriten und deine besuchten Strände werden ausschließlich lokal auf deinem iPhone gespeichert. Dein GPS-Standort wird auf dem Gerät verwendet, um Entfernungen zu berechnen und lokale Wettervorhersagen (<a href="https://open-meteo.com/">Open-Meteo</a>) abzurufen. Community-Meldungen sind anonym und moderiert.</p>
+  <p>Support und Kontakt: <a href="https://github.com/massimopozzi1989-gif/marea-privacy/issues">GitHub Support-Kanal</a>.</p>
+</section>
+
+</body>
+</html>
