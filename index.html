@@ -24,7 +24,7 @@
 
 <header>
   <h1>Privacy Policy — Marea</h1>
-  <p>Ultimo aggiornamento / Last updated: 15 ottobre 2026 · iOS 1.0<br>Bundle ID: com.audioxlmilano.appspiagge · Pubblicata da Massimo Pozzi (AudioXL)</p>
+  <p>Ultimo aggiornamento / Last updated: 19 ottobre 2026 · iOS 1.0<br>Bundle ID: com.audioxlmilano.appspiagge · Pubblicata da Massimo Pozzi (AudioXL)</p>
 </header>
 
 <nav>
@@ -47,7 +47,7 @@
 
   <h2>3. Servizi esterni (Meteo, Foto e Database Spiagge)</h2>
   <ul>
-    <li><strong>Previsioni meteo e mare (Open-Meteo):</strong> l’app interroga le API pubbliche di <a href="https://open-meteo.com/">Open-Meteo</a> inviando le coordinate delle celle costiere per ottenere vento, onde e temperature.</li>
+    <li><strong>Previsioni meteo e mare:</strong> vento e temperature provengono dal servizio meteorologico tedesco (<a href="https://www.dwd.de/">DWD</a>, modello ICON-EU) e dal <a href="https://www.ecmwf.int/">Centro europeo ECMWF</a>; onde e temperatura del mare da <a href="https://marine.copernicus.eu/">Copernicus Marine</a>. Questi dati vengono elaborati in anticipo e letti dall’app dal database Marea (Supabase) indicando solo le celle costiere da 0,1° delle spiagge, non la tua posizione. Per le zone non ancora elaborate l’app può interrogare <a href="https://open-meteo.com/">Open-Meteo</a> con le coordinate delle spiagge.</li>
     <li><strong>Fotografie (Wikimedia Commons):</strong> le fotografie non incluse nel catalogo locale vengono caricate da <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> nel rispetto delle relative licenze Creative Commons.</li>
     <li><strong>Database spiagge e segnalazioni (Supabase):</strong> l’elenco delle spiagge e le segnalazioni temporanee della community sono ospitati su infrastruttura Supabase con Row Level Security attiva.</li>
   </ul>
@@ -73,7 +73,7 @@
   <p>When you grant <em>While Using the App</em> location permission, your coordinates are used on-device to calculate distances to beaches, show the closest beaches, and fetch weather forecasts for nearby coastal grid cells. Your location is never linked to a personal identity or sold to third parties.</p>
 
   <h2>3. Weather, Photos & Community Reports</h2>
-  <p>Weather and marine forecasts are fetched from <a href="https://open-meteo.com/">Open-Meteo</a> using coastal coordinates. Additional beach photographs are loaded from <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> with full attribution. Optional community reports (flags, jellyfish, parking, or beach suggestions) use a random anonymous technical identifier (<code>device_id</code>) solely for rate-limiting and anti-spam protection. Users can hide or report any community note directly inside the app.</p>
+  <p>Wind and temperature forecasts come from the German Weather Service (<a href="https://www.dwd.de/">DWD</a>, ICON-EU) and <a href="https://www.ecmwf.int/">ECMWF</a>; waves and sea temperature from <a href="https://marine.copernicus.eu/">Copernicus Marine</a>. They are processed in advance and read by the app from the Marea database (Supabase) by coastal 0.1° beach cell, never by your position. For areas not processed yet, the app may query <a href="https://open-meteo.com/">Open-Meteo</a> with beach coordinates. Additional beach photographs are loaded from <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> with full attribution. Optional community reports (flags, jellyfish, parking, or beach suggestions) use a random anonymous technical identifier (<code>device_id</code>) solely for rate-limiting and anti-spam protection. Users can hide or report any community note directly inside the app.</p>
 
   <h2>4. Support & Contact</h2>
   <p>For privacy inquiries or support requests, please contact Massimo Pozzi via the <a href="https://github.com/massimopozzi1989-gif/marea-privacy/issues">GitHub Support Channel</a>.</p>
@@ -82,14 +82,14 @@
 <section id="fr">
   <h2>🇫🇷 Politique de Confidentialité (Français)</h2>
   <p>Cette politique décrit le traitement des données dans l’application iOS <strong>Marea</strong> (<code>com.audioxlmilano.appspiagge</code>), publiée par <strong>Massimo Pozzi</strong>.</p>
-  <p>Marea fonctionne sans création de compte, sans publicité et sans suivi publicitaire. Votre nom, photo de profil, plages favorites et plages visitées restent enregistrés uniquement sur votre iPhone. Votre position GPS est utilisée sur l’appareil pour calculer les distances et récupérer les prévisions météo locales (<a href="https://open-meteo.com/">Open-Meteo</a>). Les signalements communautaires sont anonymes et modérés.</p>
+  <p>Marea fonctionne sans création de compte, sans publicité et sans suivi publicitaire. Votre nom, photo de profil, plages favorites et plages visitées restent enregistrés uniquement sur votre iPhone. Votre position GPS est utilisée sur l’appareil pour calculer les distances et récupérer les prévisions locales (DWD, ECMWF et Copernicus Marine, lues par zone côtière depuis la base de données Marea ; Open-Meteo pour les zones pas encore traitées). Les signalements communautaires sont anonymes et modérés.</p>
   <p>Assistance et contact : <a href="https://github.com/massimopozzi1989-gif/marea-privacy/issues">Support GitHub Marea</a>.</p>
 </section>
 
 <section id="de">
   <h2>🇩🇪 Datenschutzerklärung (Deutsch)</h2>
   <p>Diese Datenschutzerklärung beschreibt die Datenverarbeitung in der iOS-App <strong>Marea</strong> (<code>com.audioxlmilano.appspiagge</code>), veröffentlicht von <strong>Massimo Pozzi</strong>.</p>
-  <p>Marea funktioniert ohne Benutzerkonto, ohne Werbung und ohne Tracking. Dein Name, dein Profilbild, deine Favoriten und deine besuchten Strände werden ausschließlich lokal auf deinem iPhone gespeichert. Dein GPS-Standort wird auf dem Gerät verwendet, um Entfernungen zu berechnen und lokale Wettervorhersagen (<a href="https://open-meteo.com/">Open-Meteo</a>) abzurufen. Community-Meldungen sind anonym und moderiert.</p>
+  <p>Marea funktioniert ohne Benutzerkonto, ohne Werbung und ohne Tracking. Dein Name, dein Profilbild, deine Favoriten und deine besuchten Strände werden ausschließlich lokal auf deinem iPhone gespeichert. Dein GPS-Standort wird auf dem Gerät verwendet, um Entfernungen zu berechnen und lokale Vorhersagen abzurufen (DWD, ECMWF und Copernicus Marine, nach Küstenzelle aus der Marea-Datenbank gelesen; Open-Meteo für noch nicht verarbeitete Gebiete). Community-Meldungen sind anonym und moderiert.</p>
   <p>Support und Kontakt: <a href="https://github.com/massimopozzi1989-gif/marea-privacy/issues">GitHub Support-Kanal</a>.</p>
 </section>
 
